@@ -11,6 +11,15 @@ Caroline is a 36-key unibody split electrostatic capacitive (EC) keyboard featur
 
 ## Design
 
+- Minimal BOM EC sensing: no mux, op-amp, integrator cap, no nothing
+- 36-key Treadstone staggered layout with QAZlice characteristics
+- Seeed Studio XIAO **Plus** controller on ZMK firmware
+    - nRF52840 Plus for wireless, SAMD21 Plus or RP2040 Plus for wired
+- Low-power wireless with nRF52840
+    - Over a month of battery life on 100 mAh, a fraction of the power draw of other wireless EC keyboards
+    - Idle scan draws under 30µA, always ready to type with no wake-up delay
+- Plate designed for Deskeys (DES) housings
+
 ## Direct EC
 
 ## Files
