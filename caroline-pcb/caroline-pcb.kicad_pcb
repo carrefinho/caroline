@@ -367,7 +367,7 @@
 			)
 		)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "067ca755-35d7-48c5-9deb-a394f80feace")
 		(at 231.241305 54.94062)
@@ -937,7 +937,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "0940f701-2e14-49eb-a4e6-a5a71bb6f563")
 		(at 79.635079 40.098215 -12)
@@ -1507,7 +1507,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "0d0d8bbd-5154-4f47-99b0-b840eb3e09a5")
 		(at 181.284168 100.455145 12)
@@ -2077,7 +2077,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "105b0d23-fe66-43d8-b2c5-5dd026a512cb")
 		(at 237.432555 73.690621)
@@ -2647,7 +2647,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "120aff19-12a2-4008-9ef7-035476e81e4b")
 		(at 38.758715 54.94062)
@@ -3336,7 +3336,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "13cb6594-0d4b-4066-8a68-4f64bdd2ca23")
 		(at 116.902498 48.019639 -12)
@@ -4147,7 +4147,7 @@
 			)
 		)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "24a75bf1-7f9e-4c6b-858a-597502beff7f")
 		(at 209.962399 37.133479 5.3)
@@ -4717,7 +4717,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "2b5b34ad-e2da-442b-b432-2b1c7b957700")
 		(at 161.018946 85.287059 12)
@@ -5287,7 +5287,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "30d681ef-6e57-4d8b-8a0a-945e64a4ff55")
 		(at 61.128233 56.366438 -7.7)
@@ -5857,7 +5857,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "3da44b2b-1878-45c2-90ee-62c3e2a20aac")
 		(at 229.812555 36.19062)
@@ -6546,7 +6546,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "432339c0-3353-4fb8-b275-978f79579439")
 		(at 98.966504 63.68282 -12)
@@ -7116,7 +7116,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "4532dc36-9cff-4d2a-9cff-c1ae9e3d5915")
 		(at 32.567465 73.690621)
@@ -7686,7 +7686,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "4850faac-1fbb-4e38-9e4b-86b37a7fd2cc")
 		(at 108.981074 85.287063 -12)
@@ -8256,7 +8256,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "56aecdb4-1b65-433a-a6b0-cf3c3e2339c7")
 		(at 232.670055 92.740621)
@@ -8826,7 +8826,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "56de9ea5-373e-4e2b-8fe6-b4e60f8ebca9")
 		(at 152.399796 67.643539 12)
@@ -9396,7 +9396,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "62cd9d7d-2fad-4ee8-be2a-0840a9bb7cdf")
 		(at 208.871787 56.366436 7.7)
@@ -9966,7 +9966,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "6c201661-9794-4d10-a2a0-71c2dcc5ec0c")
 		(at 155.662814 105.90114 12)
@@ -10536,7 +10536,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "701f1690-7fe7-4dac-aa43-24948c182044")
 		(at 98.268802 44.058919 -12)
@@ -11106,7 +11106,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "738aa6f4-2ac9-450d-ba8b-bcb94726da7d")
 		(at 88.715852 100.455149 -12)
@@ -11676,7 +11676,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "852a831c-430c-4ed3-88d5-fc60d62bbb5f")
 		(at 60.037621 37.133479 -5.3)
@@ -12246,7 +12246,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "924c3b5a-0890-4564-9480-98a07cf44e16")
 		(at 171.731218 44.058915 12)
@@ -12816,7 +12816,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "9ee0d8df-666f-45a5-acb9-4dbe640cf6db")
 		(at 179.65265 81.326358 12)
@@ -13386,7 +13386,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "a58b6e77-b8ea-409c-8324-5185be284c42")
 		(at 190.364941 40.098211 12)
@@ -13956,7 +13956,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "aec3c244-0db0-4777-b19b-852e5a37e385")
 		(at 114.337206 105.901144 -12)
@@ -14526,7 +14526,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "ba690563-190f-41ed-a757-dbc3f81be7ef")
 		(at 52.171571 74.378784 -5.4)
@@ -15096,7 +15096,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "bb67c3b6-f0dc-4e68-a78b-7ed3baf25dff")
 		(at 217.828449 74.378784 5.4)
@@ -15666,7 +15666,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "bd647122-aa03-44e2-abcc-4f8cd51f0548")
 		(at 198.286369 77.365631 12)
@@ -16236,7 +16236,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "c08d4d66-ed37-446b-8f4e-f4d7f99cbe00")
 		(at 153.097502 48.019643 12)
@@ -16806,7 +16806,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "c58f4966-85b3-4fd9-84ae-9a283b6440d3")
 		(at 37.329965 92.740621)
@@ -17376,7 +17376,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "c5920d74-9b46-4c00-90b5-8449402f5e29")
 		(at 90.347351 81.326354 -12)
@@ -17946,7 +17946,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "cc540cfd-8334-40d2-b2d8-511330c8482a")
 		(at 171.033516 63.682816 12)
@@ -18516,7 +18516,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "d3cda380-4565-4a17-bae4-8143af3ee2f5")
 		(at 40.187465 36.19062)
@@ -19086,7 +19086,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "d906bd1a-698b-4036-bb42-f4ec89ca0588")
 		(at 189.667212 59.722096 12)
@@ -19656,7 +19656,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "def69edf-ea8c-4a28-9095-ebb5cb321b6b")
 		(at 80.332789 59.722092 -12)
@@ -20226,7 +20226,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "f459f630-3b6d-4583-abc9-9dd8332b2cb7")
 		(at 71.713651 77.365635 -12)
@@ -20796,7 +20796,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EC:EC_Topre_1U_ViaSP"
+	(footprint "caroline:EC_Topre_1U_ViaSP"
 		(layer "F.Cu")
 		(uuid "f5712af8-aee1-4af0-ba29-4e76ffc65b6e")
 		(at 117.600224 67.643543 -12)
@@ -25836,7 +25836,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PCM_marbastlib-custom:Xiao_nRF52840_Plus"
+	(footprint "caroline:Xiao_nRF52840_Plus"
 		(layer "B.Cu")
 		(uuid "a151c440-387b-4f84-bb1e-53d3d39a557a")
 		(at 135 47 180)
@@ -26626,7 +26626,7 @@
 			(uuid "3e3d2cc1-a295-4a84-8152-ebbb89c7ebb1")
 		)
 		(embedded_fonts no)
-		(model "${CUSTOM_LIBS}/3d-models/PCM_marbastlib_custom/XIAO-nRF52840 Plus.step"
+		(model "${KIPRJMOD}/lib/3dmodels/XIAO-nRF52840 Plus.step"
 			(offset
 				(xyz 6.1 -1.8 0.2)
 			)
