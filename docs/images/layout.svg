@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-13.42 -13.42 658.72 283.44" width="659" height="283">
-<style>:root{--bg:none;--line:#d4d4d8;--inner:#f4f4f5;--text:#52525b;}
-@media (prefers-color-scheme: dark){:root{--bg:none;--line:#3f3f46;--inner:#27272a;--text:#d4d4d8;}}
+<style>:root{--bg:none;--line:#d0d7de;--inner:#f6f8fa;--text:#59636e;}
+@media (prefers-color-scheme: dark){:root{--bg:none;--line:#3d444d;--inner:#212830;--text:#d1d7e0;}}
 .bg{fill:var(--bg)} .side{fill:var(--line)} .top{fill:var(--inner)} text{fill:var(--text);font:600 9px system-ui,-apple-system,'Segoe UI',sans-serif}</style>
 <rect class="bg" x="-13.42" y="-13.42" width="658.72" height="283.44" rx="10"/>
 <g>
