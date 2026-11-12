@@ -34,10 +34,10 @@ Caroline is a 36-key unibody split electrostatic capacitive (EC) keyboard featur
 
 ## Credits
 
-- [dohn-joh/heatwave](https://github.com/dohn-joh/heatwave)
-- [apfel/daertwing](https://git.clacktal.es/apfel/daertwing/)
-- [Marbelymarble/Adalyn](https://github.com/Marbelymarble/Adalyn)
-- [Madeline](https://40s.wiki/boards/madeline)
+- [dohn-joh/heatwave](https://github.com/dohn-joh/heatwave): layout, aesthetics, ergogen reference
+- [apfel/daertwing](https://git.clacktal.es/apfel/daertwing/): layout reference
+- [Madeline](https://40s.wiki/boards/madeline): aesthetics
+- [Marbelymarble/Adalyn](https://github.com/Marbelymarble/Adalyn): layout reference for early experiments
 
 ## License
 
