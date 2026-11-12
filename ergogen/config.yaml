@@ -1,0 +1,499 @@
+meta:
+  engine: 4.0.4
+  name: caroline
+  author: carrefinho
+
+# Each key is placed by its own hand-tuned dials under `units`. Outputs
+# reference outlines for the KiCad PCB file and the case.
+#
+# Each half has a fixed grid (R/T, F/G, V/B and their mirrors) and three
+# alpha columns: middle, ring and pinky. Every column takes the same dials:
+# splay / pitch / lift for the whole column, and in / up / rot for each key.
+#
+# Columns hang off skipped origin points (left_*_origin / right_*_origin),
+# not off each other's keys. Splay adds up outward along the origins, but a
+# per-key nudge moves only that key.
+#
+# "in" is toward the half's own centre and "up" is along the column's own
+# axis, on both halves.
+
+units:
+  # --- Key and cap metrics ---------------------------------------------
+  kx: 19.05
+  ky: 19.05
+  rad: pi / 180
+  cap_gap: 1
+  switch_size: 14
+  electrode_diameter: 14
+  # EC plate cutout: chamfered body plus a leaf/stem slot that runs along
+  # the body's short (14.1) side.
+  ec_plate_x: 14.7
+  ec_plate_y: 14.1
+  ec_plate_chamfer: 1
+  ec_slot_length: 16
+  ec_slot_width: 3.5
+  # Clearance from keycap edge to the top-case cutout wall.
+  cutout_gap: 0.6
+  keywell_gap: 1
+
+  # --- Half geometry ----------------------------------------------------
+  # Half-angle between the halves.
+  bend: 12
+  # Horizontal distance from left_top_t to right_top_y. Both sit at the same
+  # depth, so the halves form a level V.
+  split_x: 1.9kx
+
+  # Row stagger, measured inward.
+  top_stagger: 0.25kx
+  home_stagger: 0.5kx
+  bottom_stagger: 0.25kx
+  # Extra drop on the whole bottom row, on top of the ky row pitch. The 0.5u
+  # home stagger sandwiches each home key's outer corner between the bottom
+  # keys beside it (A into X, S into C); raise this until they clear.
+  row_drop: 0
+
+  # --- Middle alpha column: E / D / C and I / K / , ---------------------
+  # With every dial at zero this column sits on the fixed grid.
+  middle_splay: 0        # rotation, added to the R/U grid column's angle
+  middle_pitch: kx       # from the R/U grid column, along this column's tilt
+  middle_lift: 0
+  middle_top_in: 0
+  middle_top_up: 0
+  middle_top_rot: 0
+  middle_home_in: 0
+  middle_home_up: 0
+  middle_home_rot: 0
+  middle_bottom_in: 0
+  middle_bottom_up: 0
+  middle_bottom_rot: 0
+
+  # --- Ring alpha column: W / S / X and O / L / . ----------------------
+  ring_splay: 6          # added to the middle column's angle
+  ring_pitch: 24         # from the middle column's origin, along this column's tilt
+  ring_lift: 0.2
+  ring_top_in: 4.2
+  ring_top_up: 0.7
+  ring_top_rot: 0.7
+  ring_home_in: -1.9
+  ring_home_up: 0
+  ring_home_rot: -2.4
+  ring_bottom_in: -1.7
+  ring_bottom_up: 0
+  ring_bottom_rot: 2.3
+
+  # --- Pinky alpha column: Q / A / Z and P / ; / / ---------------------
+  pinky_splay: 6         # added to the ring column's angle
+  pinky_pitch: 20        # from the ring column's origin, along this column's tilt
+  pinky_lift: 1.2
+  pinky_top_in: 4.4
+  pinky_top_up: 0
+  pinky_top_rot: 0
+  pinky_home_in: -0.2kx
+  pinky_home_up: 0.3
+  pinky_home_rot: 0
+  pinky_bottom_in: -0.2kx
+  pinky_bottom_up: 0.3
+  pinky_bottom_rot: 0
+
+  # --- Outer-column widths ---------------------------------------------
+  # Widths can cancel the row stagger so the outer edges of Q/A/Z/ctrl and
+  # P/;/slash/ctrl each read as one line. Each cap stays centred on the column
+  # axis, with the *_in nudge on top.
+  q_width: 1kx
+  a_width: 1.25kx
+  z_width: 1kx
+  p_width: 1kx
+  semicolon_width: 1.25kx
+  slash_width: 1kx
+
+  # --- Bottom corner mods (the two ctrl keys under Z and slash) --------
+  corner_mod_width: 1.25kx
+  corner_mod_in: 0.125kx
+
+  # --- Inner index bottom keys (B and N) ------------------
+  # Widened inward, so the outer edge stays in line with T / Y above.
+  inner_bottom_width: 1kx
+
+  # --- Thumb clusters ---------------------------------------------------
+  # Mod outboard, space inboard, hung 3u below the top row (plus row_drop).
+  # thumb_offset is measured inward from the E/I column. The clusters hang
+  # off the fixed grid, so the alpha column dials do not move them.
+  thumb_mod: 1.25kx
+  thumb_space: 1.5kx
+  thumb_offset: 1.125kx
+
+points:
+  key:
+    spread: kx
+    padding: ky
+    width: kx - cap_gap
+    height: ky - cap_gap
+    tags: [key]
+  zones:
+    # ---- Left half ---------------------------------------------------
+    # R/T: the fixed grid the rest of the half hangs off.
+    left_top:
+      anchor:
+        rotate: -bend
+      columns:
+        r:
+        t:
+    left_middle_origin:
+      anchor:
+        - ref: left_top_r
+          rotate: middle_splay
+        - shift: [-middle_pitch, middle_lift]
+      key:
+        skip: true
+      rows:
+        o:
+          name: left_middle_origin
+    left_ring_origin:
+      anchor:
+        - ref: left_middle_origin
+          rotate: ring_splay
+        - shift: [-ring_pitch, ring_lift]
+      key:
+        skip: true
+      rows:
+        o:
+          name: left_ring_origin
+    left_pinky_origin:
+      anchor:
+        - ref: left_ring_origin
+          rotate: pinky_splay
+        - shift: [-pinky_pitch, pinky_lift]
+      key:
+        skip: true
+      rows:
+        o:
+          name: left_pinky_origin
+    left_middle:
+      anchor:
+        ref: left_middle_origin
+      key:
+        padding: -ky
+      rows:
+        top:
+          name: left_top_e
+          rotate: middle_top_rot
+          shift: [middle_top_in, middle_top_up]
+        home:
+          name: left_home_d
+          rotate: middle_home_rot
+          shift: [home_stagger - top_stagger + middle_home_in, middle_home_up]
+        bottom:
+          name: left_bottom_c
+          rotate: middle_bottom_rot
+          shift: [bottom_stagger - home_stagger + middle_bottom_in, -row_drop + middle_bottom_up]
+    left_home:
+      anchor:
+        ref: left_top_r
+        shift: [home_stagger - top_stagger, -ky]
+      columns:
+        f:
+        g:
+    left_bottom:
+      anchor:
+        ref: left_top_r
+        shift: [bottom_stagger - top_stagger, -2ky - row_drop]
+      columns:
+        v:
+        b:
+          key:
+            shift: [(inner_bottom_width - kx) / 2, 0]
+            width: inner_bottom_width - cap_gap
+    left_ring:
+      anchor:
+        ref: left_ring_origin
+      key:
+        padding: -ky
+      rows:
+        top:
+          name: left_top_w
+          rotate: ring_top_rot
+          shift: [ring_top_in, ring_top_up]
+        home:
+          name: left_home_s
+          rotate: ring_home_rot
+          shift: [home_stagger - top_stagger + ring_home_in, ring_home_up]
+        bottom:
+          name: left_bottom_x
+          rotate: ring_bottom_rot
+          shift: [bottom_stagger - home_stagger + ring_bottom_in, -row_drop + ring_bottom_up]
+    left_pinky:
+      anchor:
+        ref: left_pinky_origin
+      key:
+        padding: -ky
+      rows:
+        top:
+          name: left_pinky_q
+          rotate: pinky_top_rot
+          shift: [pinky_top_in, pinky_top_up]
+          width: q_width - cap_gap
+        home:
+          name: left_pinky_a
+          rotate: pinky_home_rot
+          shift: [(home_stagger - top_stagger) - (a_width - q_width) / 2 + pinky_home_in, pinky_home_up]
+          width: a_width - cap_gap
+        bottom:
+          name: left_pinky_z
+          rotate: pinky_bottom_rot
+          shift: [(bottom_stagger - home_stagger) - (z_width - a_width) / 2 + pinky_bottom_in, -row_drop + pinky_bottom_up]
+          width: z_width - cap_gap
+        ctrl:
+          name: left_pinky_ctrl
+          shift: [-(z_width - corner_mod_width) / 2 + corner_mod_in, 0]
+          width: corner_mod_width - cap_gap
+    left_thumb:
+      anchor:
+        ref: left_top_r
+        shift: [thumb_offset - kx, -3ky - row_drop]
+      columns:
+        mod:
+          key:
+            width: thumb_mod - cap_gap
+        space:
+          key:
+            spread: (thumb_mod + thumb_space) / 2
+            width: thumb_space - cap_gap
+
+    # ---- Right half --------------------------------------------------
+    right_top:
+      anchor:
+        ref: left_top_t
+        shift: [split_x * cos(bend * rad), split_x * sin(bend * rad)]
+        rotate: 2 * bend
+      columns:
+        y:
+        u:
+    right_middle_origin:
+      anchor:
+        - ref: right_top_u
+          rotate: -middle_splay
+        - shift: [middle_pitch, middle_lift]
+      key:
+        skip: true
+      rows:
+        o:
+          name: right_middle_origin
+    right_ring_origin:
+      anchor:
+        - ref: right_middle_origin
+          rotate: -ring_splay
+        - shift: [ring_pitch, ring_lift]
+      key:
+        skip: true
+      rows:
+        o:
+          name: right_ring_origin
+    right_pinky_origin:
+      anchor:
+        - ref: right_ring_origin
+          rotate: -pinky_splay
+        - shift: [pinky_pitch, pinky_lift]
+      key:
+        skip: true
+      rows:
+        o:
+          name: right_pinky_origin
+    right_middle:
+      anchor:
+        ref: right_middle_origin
+      key:
+        padding: -ky
+      rows:
+        top:
+          name: right_top_i
+          rotate: -middle_top_rot
+          shift: [-middle_top_in, middle_top_up]
+        home:
+          name: right_home_k
+          rotate: -middle_home_rot
+          shift: [-(home_stagger - top_stagger) - middle_home_in, middle_home_up]
+        bottom:
+          name: right_bottom_comma
+          rotate: -middle_bottom_rot
+          shift: [-(bottom_stagger - home_stagger) - middle_bottom_in, -row_drop + middle_bottom_up]
+    right_home:
+      anchor:
+        ref: right_top_y
+        shift: [-(home_stagger - top_stagger), -ky]
+      columns:
+        h:
+        j:
+    right_bottom:
+      anchor:
+        ref: right_top_y
+        shift: [-(bottom_stagger - top_stagger), -2ky - row_drop]
+      columns:
+        n:
+          key:
+            shift: [-(inner_bottom_width - kx) / 2, 0]
+            width: inner_bottom_width - cap_gap
+        m:
+    right_ring:
+      anchor:
+        ref: right_ring_origin
+      key:
+        padding: -ky
+      rows:
+        top:
+          name: right_top_o
+          rotate: -ring_top_rot
+          shift: [-ring_top_in, ring_top_up]
+        home:
+          name: right_home_l
+          rotate: -ring_home_rot
+          shift: [-(home_stagger - top_stagger) - ring_home_in, ring_home_up]
+        bottom:
+          name: right_bottom_period
+          rotate: -ring_bottom_rot
+          shift: [-(bottom_stagger - home_stagger) - ring_bottom_in, -row_drop + ring_bottom_up]
+    right_pinky:
+      anchor:
+        ref: right_pinky_origin
+      key:
+        padding: -ky
+      rows:
+        top:
+          name: right_pinky_p
+          rotate: -pinky_top_rot
+          shift: [-pinky_top_in, pinky_top_up]
+          width: p_width - cap_gap
+        home:
+          name: right_pinky_semicolon
+          rotate: -pinky_home_rot
+          shift: [-(home_stagger - top_stagger) + (semicolon_width - p_width) / 2 - pinky_home_in, pinky_home_up]
+          width: semicolon_width - cap_gap
+        bottom:
+          name: right_pinky_slash
+          rotate: -pinky_bottom_rot
+          shift: [-(bottom_stagger - home_stagger) + (slash_width - semicolon_width) / 2 - pinky_bottom_in, -row_drop + pinky_bottom_up]
+          width: slash_width - cap_gap
+        ctrl:
+          name: right_pinky_ctrl
+          shift: [(slash_width - corner_mod_width) / 2 - corner_mod_in, 0]
+          width: corner_mod_width - cap_gap
+    right_thumb:
+      anchor:
+        ref: right_top_u
+        shift: [kx - thumb_offset - (thumb_space + thumb_mod) / 2, -3ky - row_drop]
+      columns:
+        space:
+          key:
+            width: thumb_space - cap_gap
+        mod:
+          key:
+            spread: (thumb_space + thumb_mod) / 2
+            width: thumb_mod - cap_gap
+
+outlines:
+  keycaps:
+    - what: rectangle
+      where: true
+      size: [kx - cap_gap, ky - cap_gap]
+    - what: rectangle
+      where: /_pinky_ctrl$/
+      size: [corner_mod_width - cap_gap, ky - cap_gap]
+    - what: rectangle
+      where: /_thumb_mod$/
+      size: [thumb_mod - cap_gap, ky - cap_gap]
+    - what: rectangle
+      where: /_thumb_space$/
+      size: [thumb_space - cap_gap, ky - cap_gap]
+    - what: rectangle
+      where: [left_bottom_b, right_bottom_n]
+      size: [inner_bottom_width - cap_gap, ky - cap_gap]
+    - what: rectangle
+      where: left_pinky_q
+      size: [q_width - cap_gap, ky - cap_gap]
+    - what: rectangle
+      where: left_pinky_a
+      size: [a_width - cap_gap, ky - cap_gap]
+    - what: rectangle
+      where: left_pinky_z
+      size: [z_width - cap_gap, ky - cap_gap]
+    - what: rectangle
+      where: right_pinky_p
+      size: [p_width - cap_gap, ky - cap_gap]
+    - what: rectangle
+      where: right_pinky_semicolon
+      size: [semicolon_width - cap_gap, ky - cap_gap]
+    - what: rectangle
+      where: right_pinky_slash
+      size: [slash_width - cap_gap, ky - cap_gap]
+  case_cutout:
+    - what: rectangle
+      where: true
+      size: [kx - cap_gap + 2cutout_gap, ky - cap_gap + 2cutout_gap]
+    - what: rectangle
+      where: /_pinky_ctrl$/
+      size: [corner_mod_width - cap_gap + 2cutout_gap, ky - cap_gap + 2cutout_gap]
+    - what: rectangle
+      where: /_thumb_mod$/
+      size: [thumb_mod - cap_gap + 2cutout_gap, ky - cap_gap + 2cutout_gap]
+    - what: rectangle
+      where: /_thumb_space$/
+      size: [thumb_space - cap_gap + 2cutout_gap, ky - cap_gap + 2cutout_gap]
+    - what: rectangle
+      where: [left_bottom_b, right_bottom_n]
+      size: [inner_bottom_width - cap_gap + 2cutout_gap, ky - cap_gap + 2cutout_gap]
+    - what: rectangle
+      where: left_pinky_q
+      size: [q_width - cap_gap + 2cutout_gap, ky - cap_gap + 2cutout_gap]
+    - what: rectangle
+      where: left_pinky_a
+      size: [a_width - cap_gap + 2cutout_gap, ky - cap_gap + 2cutout_gap]
+    - what: rectangle
+      where: left_pinky_z
+      size: [z_width - cap_gap + 2cutout_gap, ky - cap_gap + 2cutout_gap]
+    - what: rectangle
+      where: right_pinky_p
+      size: [p_width - cap_gap + 2cutout_gap, ky - cap_gap + 2cutout_gap]
+    - what: rectangle
+      where: right_pinky_semicolon
+      size: [semicolon_width - cap_gap + 2cutout_gap, ky - cap_gap + 2cutout_gap]
+    - what: rectangle
+      where: right_pinky_slash
+      size: [slash_width - cap_gap + 2cutout_gap, ky - cap_gap + 2cutout_gap]
+  ec_electrodes:
+    - what: circle
+      where: key
+      radius: electrode_diameter / 2
+  switches:
+    - what: rectangle
+      where: key
+      size: switch_size
+  _ec_plate_body:
+    - what: rectangle
+      where: key
+      size: [ec_plate_x, ec_plate_y]
+      bevel: ec_plate_chamfer
+  _ec_plate_slots:
+    - what: rectangle
+      where: key
+      size: [ec_slot_width, ec_slot_length]
+  ec_plate_cutout:
+    - name: _ec_plate_body
+    - name: _ec_plate_slots
+      operation: stack
+  keywell:
+    - name: keycaps
+      expand: keywell_gap
+      joints: pointy
+  keywell_keycaps:
+    - name: keywell
+    - name: keycaps
+      operation: stack
+  keycaps_electrodes:
+    - name: keycaps
+    - name: ec_electrodes
+      operation: stack
+  preview:
+    - name: case_cutout
+    - name: keycaps
+      operation: stack
+    - name: switches
+      operation: stack

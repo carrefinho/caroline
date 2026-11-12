@@ -26,6 +26,7 @@ Caroline is a 36-key unibody split electrostatic capacitive (EC) keyboard featur
 
 - [`caroline-pcb/`](caroline-pcb/): KiCad project
     - [View the PCB on KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fcarrefinho%2Fcaroline%2Ftree%2Fmain%2Fcaroline-pcb)
+- [`ergogen/`](ergogen/): Ergogen config that generates key positions and reference outlines
 
 ## Build Guide
 
