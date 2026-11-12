@@ -20,6 +20,8 @@ Caroline is a 36-key unibody split electrostatic capacitive (EC) keyboard featur
     - Idle scan draws under 30µA, always ready to type with no wake-up delay
 - Plate designed for Deskeys (DES) housings
 
+![Caroline layout with keycap sizes](docs/images/layout.svg)
+
 ## Direct EC
 
 ## Files
