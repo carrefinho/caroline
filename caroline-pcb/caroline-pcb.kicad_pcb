@@ -21797,7 +21797,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "071a088e-fd26-4b4f-9573-e2414fc57e2e")
 		(at 69.920061 38.06558 180)
@@ -21865,6 +21865,17 @@
 		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "508eb6bc-d991-412b-8a59-871497fa4723")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -22339,7 +22350,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "35836945-64c1-43b6-a7c4-b775c540fdd2")
 		(at 188.969519 79.345994 180)
@@ -22409,6 +22420,17 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "1705ceee-0e88-4c62-b87d-d9dee72054df")
+		)
+		(fp_circle
+			(center 0 0)
 			(end 2.2 0)
 			(stroke
 				(width 0.15)
@@ -22450,7 +22472,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "392afeea-42e7-45c4-8ddc-3cc02d929ad8")
 		(at 190.601024 98.47479 180)
@@ -22520,6 +22542,17 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "13baf707-fa8b-4ff8-b021-ef0a9f60e11c")
+		)
+		(fp_circle
+			(center 0 0)
 			(end 2.2 0)
 			(stroke
 				(width 0.15)
@@ -22561,7 +22594,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "3ac43c45-0abe-4a44-b3ed-f2715e694cb3")
 		(at 70.79165 57.692196 180)
@@ -22629,6 +22662,17 @@
 		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "a834352a-9e5a-4740-a91f-ca82e96a66ad")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -23648,7 +23692,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "60897840-b683-4aba-bc45-d3c89f943972")
 		(at 108.283364 65.663178 180)
@@ -23716,6 +23760,17 @@
 		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "b880a18c-b15f-4341-8db1-43d444cdfcad")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -24295,7 +24350,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "732647b9-df7d-426c-ad73-2e1c2b6af747")
 		(at 123.654062 107.881499 180)
@@ -24363,6 +24418,17 @@
 		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "38c27318-fcfc-4e57-be39-39c2c8fbc12a")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -24628,7 +24694,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "7a3ad187-bb66-4168-94a0-6287466d858c")
 		(at 79.398996 98.474786 180)
@@ -24696,6 +24762,17 @@
 		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "6d23dc9d-e892-4744-a106-ccf3a4bd5590")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -24850,7 +24927,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "81e90643-ec93-4e53-8a65-9b5f915f65f6")
 		(at 42.390654 73.586512 180)
@@ -24920,6 +24997,17 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "6af67d23-92cb-40ce-84d7-4217dd3e4f85")
+		)
+		(fp_circle
+			(center 0 0)
 			(end 2.2 0)
 			(stroke
 				(width 0.15)
@@ -24961,7 +25049,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "8546b3cb-8aac-45a2-a982-8cd438fa70c6")
 		(at 30.662465 36.19062 180)
@@ -25029,6 +25117,17 @@
 		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "e8558c5e-ecf2-43c4-b696-ff93b4a123a8")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -25725,7 +25824,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "97837075-37ba-4a86-b1e6-f0d875a6b662")
 		(at 146.345958 107.881503 180)
@@ -25793,6 +25892,17 @@
 		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "66cbc59e-0c89-4e29-be9d-b8b395252f0c")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -26749,7 +26859,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "a594805f-106f-450c-89c6-1738f80c0f88")
 		(at 242.195055 92.740621 180)
@@ -26817,6 +26927,17 @@
 		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "fa5d76a1-be3c-45ef-869a-f4bf8e64909b")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -27193,7 +27314,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "bfed252a-72ff-47f2-a495-861006e3a899")
 		(at 107.58566 46.039279 180)
@@ -27263,6 +27384,17 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "aa99f7cb-475a-47a8-9d3a-335f57b0cfc6")
+		)
+		(fp_circle
+			(center 0 0)
 			(end 2.2 0)
 			(stroke
 				(width 0.15)
@@ -27304,7 +27436,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "c9d29f69-80eb-43fb-81aa-7ceea58611b8")
 		(at 200.079959 38.065582 180)
@@ -27374,6 +27506,17 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "d428a779-d26c-49b2-9c49-b71a3abf0e75")
+		)
+		(fp_circle
+			(center 0 0)
 			(end 2.2 0)
 			(stroke
 				(width 0.15)
@@ -27415,7 +27558,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "d2312aaa-d87b-4562-b85c-0a20928603dd")
 		(at 161.716656 65.663182 180)
@@ -27483,6 +27626,17 @@
 		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "e833adcf-c24f-4127-87aa-128bfcc014a0")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -27957,7 +28111,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "d7c88989-83cc-401f-babc-5b94228006c0")
 		(at 199.208379 57.692195 180)
@@ -28027,6 +28181,17 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "e97607b2-307b-4fb4-b5b8-3217ae005d15")
+		)
+		(fp_circle
+			(center 0 0)
 			(end 2.2 0)
 			(stroke
 				(width 0.15)
@@ -28068,7 +28233,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "d8f713fa-5e1c-4452-afdf-576af28c1544")
 		(at 81.03051 79.345994 180)
@@ -28136,6 +28301,17 @@
 		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "d76a8b47-19b4-4e90-abad-29ec5fd2cad4")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -28290,7 +28466,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "e3956848-8366-46fc-9ca6-ac706407a749")
 		(at 239.337555 36.19062 180)
@@ -28360,6 +28536,17 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "0a9a0ce0-e9b5-491e-af82-d43cb8e06fa6")
+		)
+		(fp_circle
+			(center 0 0)
 			(end 2.2 0)
 			(stroke
 				(width 0.15)
@@ -28401,7 +28588,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "eafef318-3711-40b2-97f7-46f9fb98e018")
 		(at 227.609366 73.586512 180)
@@ -28469,6 +28656,17 @@
 		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "8ec0f88e-276a-41dc-8a75-2c01cc75baa1")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -28734,7 +28932,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "f0479a73-2df9-4762-bfaf-e0622558ff4f")
 		(at 27.804965 92.740621 180)
@@ -28802,6 +29000,17 @@
 		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "43a63492-0bde-4e71-a70f-e7f46233794e")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -28956,7 +29165,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "caroline:MountingHole_2.2mm_M2_ring_silk"
 		(layer "B.Cu")
 		(uuid "fa0b9055-7117-4647-a9ff-377dd2e9cc2a")
 		(at 162.41437 46.039279 180)
@@ -29024,6 +29233,17 @@
 		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "548b080b-1e47-45b7-85b3-7dd1e64a53cb")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)

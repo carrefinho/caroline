@@ -4827,7 +4827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 184.15 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -6308,7 +6308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 138.43 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -6765,7 +6765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 153.67 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -6838,7 +6838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 306.07 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -7470,7 +7470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 229.87 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -7702,7 +7702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 245.11 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -8013,7 +8013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 214.63 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -8170,7 +8170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 245.11 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -8799,7 +8799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 123.19 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9500,7 +9500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 260.35 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9818,7 +9818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 306.07 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -9891,7 +9891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 214.63 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -10674,7 +10674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 275.59 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -10747,7 +10747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 138.43 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -13078,7 +13078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 153.67 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13462,7 +13462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 290.83 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13846,7 +13846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 168.91 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -14078,7 +14078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 138.43 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -14312,7 +14312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 214.63 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -14885,7 +14885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "caroline:MountingHole_2.2mm_M2_ring_silk"
 			(at 184.15 176.53 0)
 			(hide yes)
 			(show_name no)
